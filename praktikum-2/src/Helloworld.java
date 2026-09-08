@@ -5,5 +5,13 @@ public class Helloworld {
         /* Baris di bawah ini
            mencetak NIM mahasiswa */
         System.out.println("NIM: 12345");
+
+        int nilaiBulat = 9;
+        double nilaiDouble = nilaiBulat; // widening otomatis
+        System.out.println("Widening: " + nilaiDouble);
+
+        double pecahan = 9.8;
+        int hasilCasting = (int) pecahan; // narrowing ehsplisit
+        System.out.println("Narrowing: " + hasilCasting);
     }
 }
