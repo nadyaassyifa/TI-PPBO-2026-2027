@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
  * Nama   : Nadya Assyifa
  * NIM    : 2025573010057
- * Kelas  : TI.2A
+ * Kelas  : TI.2Ag
  * Program: Kalkulator Bangun Datar
  */
 
