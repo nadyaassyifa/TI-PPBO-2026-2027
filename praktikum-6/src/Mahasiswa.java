@@ -15,4 +15,14 @@ public class Mahasiswa {
         this.nim = nim;
         this.ipk = ipk;
     }
+
+    public void tampilkanData() {
+        System.out.println("Nama: " + nama);
+        System.out.println("NIM: " + nim);
+        System.out.println("ipk: " + ipk);
+    }
+
+    public boolean isCumlaude() {
+        return ipk >= 3.5;
+    }
 }
