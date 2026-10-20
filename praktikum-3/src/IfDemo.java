@@ -1,6 +1,6 @@
 public class IfDemo {
     public static void main(String[] args) {
-        int nilai = 78;
+        int nilai = 80;
         char huruf;
 
         if (nilai >= 85) {
