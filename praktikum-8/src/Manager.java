@@ -6,6 +6,11 @@ public class Manager extends Pegawai {
         this.tunjanganJabatan = tunjanganJabatan;
     }
 
+    //getter tunjangan jabatan
+    public double getTunjanganJabatan() {
+        return tunjanganJabatan;
+    }
+
     public void tampilkanRingkasan() {
         System.out.println("Manager: " + nama);
     }

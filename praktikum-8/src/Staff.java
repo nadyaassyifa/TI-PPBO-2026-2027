@@ -5,4 +5,9 @@ public class Staff extends Pegawai {
         super(nama, nip, gajiPokok);
         this.tunjanganKinerja = tunjanganKinerja;
     }
+
+    //getter tunjangan kerja
+    public double getTunjanganKinerja() {
+        return tunjanganKinerja;
+    }
 }
