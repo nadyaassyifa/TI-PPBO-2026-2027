@@ -4,6 +4,7 @@ public class PenggajianDemo {
                 new Manager("Budi", "M001", 3000000, 1000000),
                 new Staff("Siti", "S001", 2000000, 500000),
                 new Staff("Andi", "S002", 2000000, 300000),
+                new Direktur("Nadya", "D001", 5000000, 2000000, 1000000),
         };
 
         double totalGaji = 0;
@@ -13,6 +14,6 @@ public class PenggajianDemo {
             totalGaji += gaji;
         }
 
-        System.out.println("Toral gaji: " + totalGaji);
+        System.out.printf("%s%.0f%n", "Total gaji: ", totalGaji);
     }
 }
